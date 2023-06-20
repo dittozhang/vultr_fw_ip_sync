@@ -1,3 +1,15 @@
+# Description
+---
+This repository implements the Github node allowlist of Vultr.
+
+Process:
+1. Take IPs of Github services from Github API
+2. Update IPs in Vultr's firewall rules
+2.1 Delete old IPs
+2.2 Add new IPs
+
+# License
+---
 MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction.
