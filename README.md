@@ -2,7 +2,7 @@
 This repository implements the Github node allowlist of Vultr.
 
 Process:
-1. Take IPs of Github services from Github API
+1. Take IPs of Github services from [Github API](https://api.github.com/meta)
 2. Update IPs in Vultr's firewall rules<br>
 2.1 Delete old IPs<br>
 2.2 Add new IPs
